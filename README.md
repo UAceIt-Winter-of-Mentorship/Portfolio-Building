@@ -1,7 +1,7 @@
 # Portfolio-Building
 A Portfolio website provides professional information about an individual and presents a showcase of his/her work.
 
-# Tech Stack Used :computer:
+# Tech Stack Used:computer::
 
 <p align="left" style="margin:10px; padding:5px"> 
     <img src="https://cdn.worldvectorlogo.com/logos/html-1.svg" alt="HTML" title="HTML" width="50" height="50">
