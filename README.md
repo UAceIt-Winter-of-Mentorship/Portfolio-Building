@@ -11,10 +11,13 @@ A Portfolio website provides professional information about an individual and pr
     
 </p>
 
-## Contributors
-
-- [@Radha Singh](https://github.com/Radhasingh95)
+# Contributors
+ 
 - [@Saurav Sutaria](https://github.com/Saurav-Sutaria)
 - [@kritikaa srivastavaa](https://github.com/kritikaa-srivastavaa)
 - [@Swapnil](https://github.com/2002Swapnil)
 - [@Gyanvi](https://github.com/Gyanvi908)
+
+# Project Admin 
+
+- [Radha Singh](https://github.com/Radhasingh95)
