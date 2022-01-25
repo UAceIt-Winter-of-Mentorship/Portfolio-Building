@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    font-family:'Lucida Sans';
+    margin: 0px;
+}
+body{
+    background-image: url('/src/background.jpeg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    
+}
+nav{
+    background-color: rgb(32, 32, 32);
+    width: 100%;
+    position: fixed;
+    margin-bottom: 10px;
+}
+nav a{
+    text-decoration:none;
+    padding: 1.2vw;
+    margin-left: 4%;
+    text-align:center;
+    float:left;
+    color: white;
+
+}
+nav a:hover{
+    text-decoration: underline red 2px;
+    transform: scale(1.2);
+}
+.about{
+    background-color:aqua;
+}
