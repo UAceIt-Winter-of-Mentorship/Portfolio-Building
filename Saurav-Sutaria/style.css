@@ -1,7 +1,8 @@
 *{
     box-sizing: border-box;
     font-family:'Lucida Sans';
-    margin: 0px;
+    margin: 0;
+    padding: 0;
 }
 body{
     background-image: url('/src/background.jpeg');
@@ -10,10 +11,12 @@ body{
     
 }
 nav{
-    background-color: rgb(32, 32, 32);
+    background-color: rgba(32, 32, 32);
     width: 100%;
-    position: fixed;
-    margin-bottom: 10px;
+    position:sticky;
+    display: inline-block;
+    top: 0px;
+
 }
 nav a{
     text-decoration:none;
@@ -28,6 +31,126 @@ nav a:hover{
     text-decoration: underline red 2px;
     transform: scale(1.2);
 }
-.about{
-    background-color:aqua;
+.intro{
+    margin: 0;
+    padding: 0;
+    height: 600px;
+    background-image: url('src/introBG.jpeg');
+    background-repeat:no-repeat;
+    background-position: top left;
+    background-size:cover;
+    background-attachment:scroll;
+}
+.intro .name{
+    padding-top:70px ;
+    text-align: center;
+    font-size: 50px;
+}
+.intro .name h2{
+    background: linear-gradient(to right, #ff0707 0%, #000000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+.down{
+    margin-top: 30px;
+    
+}
+.ball1 {
+	background: #111;
+	height: 25px;
+	width: 25px;
+	border-radius: 100%;
+}
+.ball2 {
+	background: #111;
+	height: 20px;
+	width: 20px;
+	border-radius: 100%;
+}
+.ball3 {
+	background: #111;
+	height: 15px;
+	width: 15px;
+	border-radius: 100%;
+}
+.spacer {
+	height: 10px;
+}
+.arrow {
+	height: 50px;
+	width: 50px;
+	border: 0;
+	border-right: 7px solid #111;
+	border-top: 7px solid #111;
+	transform: translateY(-10px) rotate(135deg);
+}
+main{
+    width: 90%;
+    margin: auto;
+}
+.box{
+    display:flex ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    border: 2px solid black;
+}
+.box .imgBox{
+    width: 140px;
+    flex : 0 0 230px;
+
+ 
+}
+.box .imgBox img{
+    max-width: 100%;
+    clip-path: circle(60% at 50% 50%);
+
+}
+.box .content{
+    margin-right: 10%;
+}
+.box .content h2{
+    border-bottom: 3px solid transparent;
+    border-image: linear-gradient(to right,rgb(255, 0, 13), rgb(4, 0, 253));
+    border-image-slice: 1;
+    padding-bottom: 5px;
+    width: fit-content;
+    
+}
+.box .content p{
+    padding-top: 10px;
+    text-align: left;
+    font-size: large;
+}
+button{
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid rgb(170, 93, 93);
+    border-radius: 10px;
+    background-color:rgb(255, 234, 207);
+}
+button:hover{
+    transform: scale(1.2);
+    background-color: black;
+    color: yellow;
+    border: 0;
+}
+.education{
+    border: 2px solid black;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30%;
+}
+.education h2{
+    border-bottom: 3px solid transparent ;
+    border-image: linear-gradient(to right,rgb(255, 0, 13), rgb(4, 0, 253));
+    border-image-slice: 1;
+    padding-bottom: 5px;
+    width:fit-content
+}
+.education .edu{
+    font-size: large;
+    margin:10px 0px 20px 0px;
 }
