@@ -10,3 +10,14 @@ A Portfolio website provides professional information about an individual and pr
     <a href="#"><img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/bootstrap_plain_wordmark_logo_icon_146620.png" alt="Bootstrap"  title = "BootStrap" width = "50" height = "50" /></a>
     
 </p>
+
+# Contributors
+ 
+- [@Saurav Sutaria](https://github.com/Saurav-Sutaria)
+- [@kritikaa srivastavaa](https://github.com/kritikaa-srivastavaa)
+- [@Swapnil](https://github.com/2002Swapnil)
+- [@Gyanvi](https://github.com/Gyanvi908)
+
+# Project Admin 
+
+- [Radha Singh](https://github.com/Radhasingh95)
