@@ -13,10 +13,9 @@ body{
 nav{
     background-color: rgba(32, 32, 32);
     width: 100%;
-    position:sticky;
+    position:fixed;
     display: inline-block;
     top: 0px;
-
 }
 nav a{
     text-decoration:none;
@@ -42,7 +41,7 @@ nav a:hover{
     background-attachment:scroll;
 }
 .intro .name{
-    padding-top:70px ;
+    padding-top:180px ;
     text-align: center;
     font-size: 50px;
 }
@@ -129,6 +128,7 @@ button{
     border: 2px solid rgb(170, 93, 93);
     border-radius: 10px;
     background-color:rgb(255, 234, 207);
+    font-weight: bolder;
 }
 button:hover{
     transform: scale(1.2);
@@ -136,21 +136,152 @@ button:hover{
     color: yellow;
     border: 0;
 }
-.education{
+.education, .contact ,  .experience, .skills, .project , .codingProfile{
     border: 2px solid black;
     margin-top: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
     padding-right: 30%;
+    
 }
-.education h2{
+main h2{
     border-bottom: 3px solid transparent ;
     border-image: linear-gradient(to right,rgb(255, 0, 13), rgb(4, 0, 253));
     border-image-slice: 1;
     padding-bottom: 5px;
-    width:fit-content
+    width:fit-content;
+    color: #ff5e01;
 }
-.education .edu{
+.education .degree{
+    padding: 5px;
+}
+.experience .post,.education .institute{
+    padding-left: 5px;
+    margin-top: 15px;
+    font-size : 20px;
+    color: rgb(1, 19, 180);
+}
+.experience .organization{
+    padding-left: 5px;
+    font-size: 15px;
+    color: rgb(255, 0, 0);
+}
+.experience ul{
+    padding-left:25px ; 
+}
+.block{
+    border-bottom: 2px solid black;
+}
+.project h4{
+    margin-top: 10px;
+    font-size: 20px;
+    color:rgb(1, 19, 180)
+}
+.project .tech{
+    color:rgb(251, 0, 0);
+}
+.project a:hover{
+    transform: scale(1.2);
+    background-color: black;
+    color: yellow;
+}
+.codingProfile h2{
+    margin-bottom: 10px;
+    
+}
+.profileBlock{
+    display:inline-block;
+    background-color: aquamarine;
+    margin: 2px;
+    width: fit-content;
+    margin-left: 10px;
+    background-color: #000000;
+    border-radius: 10px;
+}
+.profileBlock:hover{
+    transform: scale(1.4);
+}
+.contact h2{
+    margin-bottom: 5px;;
+}
+.c1{
+    width: fit-content; 
+    display:inline-flex;
+    text-align: center;
+    align-items:center;
+    
+}
+
+.phone, .email{
+    padding: 10px;
+    background-color:rgba(255, 230, 199, 0.603);
+    width: 40%;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 100px;
+}
+.contact img{
+    width: 10%;
+}
+.c1 .info{
+    font-size: medium;
+    color: #000000;
+}
+.phone p, .email p{
+    font-size: larger;
+    color: #ff0707;
+}
+.c2{
+    margin: 10px;
+    margin-top: 15px;
+    padding: 10px;
+    margin-left: 10%;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 50%;
+    text-align: center;
+    background-color: rgba(255, 230, 199, 0.603);
+}
+.c2 input,textarea{
+    margin:5px;
+    height: 30px;
+    border: 0px solid white;
+    border-radius: 60px;
+    text-align: center;
+}
+.c2 textarea{
+    border-radius: 10px;
+    height: 100px;
+}
+.c2 .submit{
+    width: 30%;
+    background-color: yellow;
+    border-radius: 10px;
     font-size: large;
-    margin:10px 0px 20px 0px;
+    border: 1px solid black;
 }
+.footer{
+    background-color: rgba(32, 32, 32);
+    color: white;
+    padding: 30px;
+}
+.footer p{
+    font-size: larger;
+    color: #ff5e01;
+}
+.links{
+    display:inline-flex;
+    background-color: rgba(255, 230, 199, 0.603);
+    width: 40%;
+    padding-left: 50px;
+    border-radius: 50px;
+    
+}
+.item img{
+    width: 40%;
+}
+.copyright{
+    text-align: center;
+    padding-top: 40px;
+}
+
