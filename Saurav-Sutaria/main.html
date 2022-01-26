@@ -36,7 +36,7 @@
     </section>
     </div>
     <main>
-        <section class="about">
+        <section class="about" id="about">
         <div class="box">
           <div class="content">
             <h2>About me👨‍💻</h2>
@@ -59,39 +59,34 @@
       
       <section class="education" id="education">
         <h2>Education<b>&#127891;</b></h2>
-        <div class="edu">
+        <div class="block">
           <h3 class="institute">
             Government Engineering College, Rajkot (2020-2024)
           </h3>
           <h5 class="degree">Bachelor in Computer Engineering - (CPI: 9.8)</h5>
-          <hr />
+          
         </div>
-        <div>
+        <div class="block">
           <h3 class="institute">Kendriya Vidyalaya, Rajkot (2019-2020)</h3>
           <h5 class="degree">Class XII - (Aggregate: 92%)</h5>
-          <hr />
+          
         </div>
-        </main>
       </section>
-      <!--
       <section class="experience" id="experience">
         <h2>Experience</h2>
-        <hr />
-        <hr />
-        <div>
+        <div class="block">
           <h3 class="post">Mentee (Jan 2022 - Feb 2022)</h3>
           <h4 class="organization">UAceit Winter of mentorship program</h4>
           <ul>
-            <li>
-              <p class="discription">
+            <li class="discription">
                 I am selected as mentee for Portfolio building project, where I
                 have learned and build my personal Portfolio site.
-              </p>
+            
             </li>
           </ul>
         </div>
-        <hr />
-        <div>
+        
+        <div class="block">
           <h3 class="post">
             Competitive Programming Lead (July 2022 - present)
           </h3>
@@ -106,21 +101,17 @@
             </li>
           </ul>
         </div>
-        <hr />
-        <div>
+  
+        <div class="block">
           <h3 class="post">Core team member (Aug 2022 - present)</h3>
           <h4 class="organization">Google Developer Student Club</h4>
-        </div>
-        <hr />
+        </div>        
         <div>
           <h3 class="post">Executive team member (Oct 2020 - June 2021)</h3>
           <h4 class="organization">CodeChef GEC Rajkot chapter</h4>
-        </div>
-        <hr />
-      </section>
+        </div>        
+      </section>    
       <section class="skills" id="skills">
-        <hr />
-        <hr />
         <h2>Skills</h2>
         <image src="src/c.png" alt="C" title="C"></image>
         <image src="src/cplusplus.png" alt="Cpp" title="C++"></image>
@@ -141,11 +132,9 @@
         <image src="src/git.png" alt="Git" title="Git" width="60px"></image>
       </section>
       <section class="project" id="projects">
-        <hr />
-        <hr />
         <h2>Projects</h2>
         <h4>Portfolio Website</h4>
-        <li>Tech Stack Used: HTML, CSS, JavaScript, Bootstrap</li>
+        <li>Tech Stack : <span class="tech">HTML, CSS, JavaScript, Bootstrap</span></li>
         <li>
           Code Link:
           <a
@@ -154,10 +143,11 @@
           >
         </li>
       </section>
+      
       <section class="codingProfile" id="codingProfile">
-        <hr />
-        <hr />
+    
         <h2>Online Coding Profile</h2>
+        <div class="profileBlock">
         <a href="https://leetcode.com/saurav_sutaria/" target="_blank"
           ><img
             src="src/leetcode.png"
@@ -165,6 +155,8 @@
             title="leetcode"
             width="60px"
         /></a>
+        </div>
+        <div class="profileBlock">
         <a href="https://www.codechef.com/users/saurav_sutaria" target="_blank"
           ><img
             src="src/codechef.png"
@@ -172,6 +164,8 @@
             title="CodeChef"
             width="120px"
         /></a>
+        </div>
+        <div class="profileBlock">
         <a href="https://www.hackerrank.com/Saurav_Sutaria" target="_blank"
           ><img
             src="src/hackerrank.png"
@@ -179,16 +173,25 @@
             title="HackerRank"
             width="60px"
         /></a>
+        </div>
       </section>
       <section class="contact" id="contact">
-        <hr />
-        <hr />
         <h2>Contact Me</h2>
-        <p>Phone : +91-9723394996</p>
-        <p>Email : saurav.sutaria02@gmail.com</p>
+        <div class="c1">
+        <div class="phone">
+          <img src="/src/phone.png">
+          <p class="info">Phone</p>
+          <p>+91-9723394996</p>
+        </div>
+        <div class="email">
+          <img src="/src/email.png">
+          <p class="info">Mail</p>
+          <p>saurav.sutaria02@gmail.com</p></div>
+        </div>
+        <div class="c2">
         <form>
           <h3 class="form">Have a question or want to work together?</h3>
-          <input type="text" placeholder="Name" /><br />
+          <div class="input"><input type="text" placeholder="Name" /><br />
           <input type="text" placeholder="Subject" /><br />
           <input type="email" placeholder="Email" /><br />
           <textarea
@@ -198,40 +201,38 @@
             placeholder="Message..."
           ></textarea
           ><br />
-          <input
+        </div>
+          <input class="submit" 
             type="submit"
             value="Submit"
             onclick="alert('Thank you for submitting this form!!')"
           />
         </form>
+        </div>
       </section>
     </main>
-    <footer>
-      <h3>Social Links :</h3>
-      <a
+    <footer class="footer">
+      <p>Social Links</p>
+      <div class="links">
+      <div class="item"><a
         href="https://www.linkedin.com/in/saurav-sutaria"
         target="_blank"
         title="linkedIn"
-        >LinkedIn</a
-      >
-      <a href="https://github.com/Saurav-Sutaria" target="_blank" title="github"
-        >Github</a
-      >
-      <a
-        href="https://www.showwcase.com/saurav_sutaria"
-        target="_blank"
-        title="showwcase"
-        >Showwcase</a
-      >
-      <a
+        ><img src="/src/linkedin.png"></a>
+      </div>
+      <div class="item"><a href="https://github.com/Saurav-Sutaria" target="_blank" title="github"
+        ><img src="/src/github.png"></a>
+      </div>
+      <div  class="item"><a
         href="https://www.youtube.com/channel/UCHSCnB7K3c_uevoOIKaosTQ"
         target="_blank"
         title="youtube"
-        >YouTube</a
-      >
-      <a href="#" target="_blank" title="twitter">Twitter</a>
-      <a href="#" target="_blank" title="instagram">Instagram</a>
-      <p>&copy; Developed by Sauarv Sutaria</p>
-    </footer> -->
+        ><img src="/src/youtube.png"></a>
+      </div>
+      <div class="item"><a href="https://twitter.com/sauravsutaria" target="_blank" title="twitter"><img src="/src/twitter.png"></a></div>
+      <div class="item"><a href="#" target="_blank" title="instagram"><img src="/src/instagram.png"></a></div>
+      </div>  
+      <p class="copyright">&copy; Developed by Saurav Sutaria</p>
+    </footer>
   </body>
 </html>
