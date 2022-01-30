@@ -98,8 +98,6 @@ main{
 .box .imgBox{
     width: 140px;
     flex : 0 0 230px;
-
- 
 }
 .box .imgBox img{
     max-width: 100%;
@@ -136,6 +134,7 @@ button:hover{
     color: yellow;
     border: 0;
 }
+nav {z-index:100;}
 .education, .contact ,  .experience, .skills, .project , .codingProfile{
     border: 2px solid black;
     margin-top: 30px;
@@ -202,7 +201,7 @@ main h2{
     transform: scale(1.4);
 }
 .contact h2{
-    margin-bottom: 5px;;
+    margin-bottom: 5px;
 }
 .c1{
     width: fit-content; 
@@ -215,7 +214,7 @@ main h2{
 .phone, .email{
     padding: 10px;
     background-color:rgba(255, 230, 199, 0.603);
-    width: 40%;
+    width:fit-content;
     margin: 10px;
     border: 2px solid black;
     border-radius: 100px;
@@ -237,8 +236,7 @@ main h2{
     padding: 10px;
     margin-left: 10%;
     border: 2px solid black;
-    border-radius: 10px;
-    width: 50%;
+    width: 70%;
     text-align: center;
     background-color: rgba(255, 230, 199, 0.603);
 }
@@ -246,7 +244,8 @@ main h2{
     margin:5px;
     height: 30px;
     border: 0px solid white;
-    border-radius: 60px;
+    border-radius: 10px;
+    width: 50%;
     text-align: center;
 }
 .c2 textarea{
