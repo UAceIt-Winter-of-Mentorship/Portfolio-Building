@@ -22,7 +22,7 @@ A Portfolio website provides professional information about an individual and pr
 
 - [Radha Singh](https://github.com/Radhasingh95)
 
-# How to contribute/How to get Started
+# How to get Started
 
 Clone the project
 
