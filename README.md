@@ -21,3 +21,34 @@ A Portfolio website provides professional information about an individual and pr
 # Project Admin 
 
 - [Radha Singh](https://github.com/Radhasingh95)
+
+# How to contribute/How to get Started
+
+Clone the project
+
+```bash
+  git clone https://github.com/UAceIt-Winter-of-Mentorship/Portfolio-Building
+```
+Add a New Remote
+```bash
+git remote add origin https://github.com/UAceIt-Winter-of-Mentorship/Portfolio-Building
+```
+Changing Directory
+```bash
+cd Portfolio-Building
+```
+Adding and commiting file added
+```bash
+git add .
+git commit -m 'add name'
+```
+Pushing to origin
+```bash
+git push origin main
+```
+Creating pull request
+```bash
+New pull request option
+
+Create new pull request option
+```
