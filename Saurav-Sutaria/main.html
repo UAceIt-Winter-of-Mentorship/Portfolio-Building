@@ -6,6 +6,11 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <script>
+      var shiftWindow = function() { scrollBy(0, -50) };
+      if (location.hash) shiftWindow();
+      window.addEventListener("hashchange", shiftWindow);
+    </script>
     <section class="nav">
     <div class="nav">
       <nav>
@@ -218,19 +223,19 @@
         href="https://www.linkedin.com/in/saurav-sutaria"
         target="_blank"
         title="linkedIn"
-        ><img src="/src/linkedin.png"></a>
+        ><img src="src/linkedin.png"></a>
       </div>
       <div class="item"><a href="https://github.com/Saurav-Sutaria" target="_blank" title="github"
-        ><img src="/src/github.png"></a>
+        ><img src="src/github.png"></a>
       </div>
       <div  class="item"><a
         href="https://www.youtube.com/channel/UCHSCnB7K3c_uevoOIKaosTQ"
         target="_blank"
         title="youtube"
-        ><img src="/src/youtube.png"></a>
+        ><img src="src/youtube.png"></a>
       </div>
-      <div class="item"><a href="https://twitter.com/sauravsutaria" target="_blank" title="twitter"><img src="/src/twitter.png"></a></div>
-      <div class="item"><a href="#" target="_blank" title="instagram"><img src="/src/instagram.png"></a></div>
+      <div class="item"><a href="https://twitter.com/sauravsutaria" target="_blank" title="twitter"><img src="src/twitter.png"></a></div>
+      <div class="item"><a href="#" target="_blank" title="instagram"><img src="src/instagram.png"></a></div>
       </div>  
       <p class="copyright">&copy; Developed by Saurav Sutaria</p>
     </footer>
