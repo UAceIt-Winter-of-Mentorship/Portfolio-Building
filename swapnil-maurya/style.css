@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Dancing+Script:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    background-color: rgb(255 255 255 / 90%);
+    height: 8vh;
+    padding: 10px 50px 10px 50px;
+    box-sizing: border-box;
+    border-bottom: 2px solid #e4e3e4;
+    position: sticky;
+    top: 0;
+}
+.menu-bar{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    
+
+}
+.logo a{
+    display: flex;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    font-weight: bolder;
+    color: rgb(2, 2, 1);
+    text-shadow: 2px 2px #a8a5a5;
+    text-decoration: none;
+}
+.logo a:hover{
+    transform: scale(1.15);
+
+}
+.menu-items{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.menu-item{
+    padding: 20px;
+    font-size: 1.15rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.menu-item:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.section1{
+    height: 92vh;
+    background-image: url("images/bg.gif");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.profile{
+    height: 50vh;
+    width: 50vh;
+}
+.profile-photo{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-icon-container{
+    height: 10vh;
+    width: 100%;
+    /* background-color: #84a5bb; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 30px;
+}
+.profile-icon{
+    background-color: rgb(10, 127, 145);
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-icon .icon{
+    font-size: 2.5rem;
+}
+.profile-icon img{
+    height: 50px;
+
+}
+.photo{
+    height: 230px;
+    width: 230px;
+    box-shadow: black;
+    box-shadow: 0px 10px 8px 10px #79737352 ;
+    border-radius: 50%;
+
+}
+.photo img{
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+}
+.section2{
+    background-color: rgba(219, 192, 219, 0.651);
+}
+.education-img img{
+    height: 100%; 
+    width: 100%; 
+}
+.heading{
+    font-family: baloo-bhai;
+    font-weight: bolder;
+    font-size: 70px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+.quote{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.education-section{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    width: 80vw;
+    background-color: black;
+    border-radius: 20%;
+    box-shadow: 10px 10px 8px 10px #a8a8a8 ;
+    margin-bottom: 100px;
+
+}
+.heading-box{
+    font-size: 3rem;
+    color: white;
+    display: flex;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    justify-content: center;
+    padding: 20px;
+}
+.edu-detail-section{
+    display: flex;
+    justify-content: space-between;
+}
+.edu-details{
+    color: rgb(201, 193, 193);
+    padding-left:50px ;
+} 
+.institue-image img{
+    height: 200px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+}
+#line{
+    height: 10px;
+    width: 100vw;
+    background-color: black;
+    animation: load 2s ease-in-out infinite;
+    padding-bottom: 5px;
+}
+@keyframes load{
+    0%{
+        width:0;
+    }
+    25%{
+        width:25;
+    }
+    50%{
+        width:50;
+    }
+    100%{
+        width:100;
+    }
+}
+.section3{
+    background-color: rgb(255, 255, 255);
+}
+.quote-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+}
+.quote-photo img{
+    height: 500px;
+}
+.quote-text{
+    padding-right: 150px;
+    font-size: 1.5rem;
+    font-family: cursive;
+    color: rgba(71, 71, 175, 0.938);
+    font-weight: bolder;
+}
+
+.column1{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.ve1{
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    width: 300px;
+    height: 600px;
+    box-shadow: 10px 10px 8px 10px #747474 ;
+    border-radius: 10% ;
+    border: 2px solid rgb(134, 132, 132);
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+.vol-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vol-img img{
+    height: 250px;
+    width: 250px;
+    margin: 10px 20px ;
+    border-radius: 30%;
+}
+.heading-name{
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+    font-family: cursive;
+    font-weight: bolder;
+    font-style: italic;
+    line-height: 1.35;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.vol-text{
+    font-size: 24px;
+    font-family: cursive;
+    text-align: center;
+    font-style: italic;
+    line-height: 1.2;
+
+}
+.column2{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px;
+}
+
+.profile-icon:hover{
+    cursor: pointer;
+}
+.section4{
+    background-color: rgb(240, 206, 212);
+}
+.section5{
+    background-color: rgb(17, 121, 134);
+}
+
+.project-name{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    /* align-items: center; */
+}
+.git{
+    display: flex;
+    justify-content: center;
+}
+.project-image img{
+    margin-top: 50px;
+    height: 320px;
+    width: 320px;
+    margin-bottom: 20px;
+    border: 2px solid gainsboro; 
+    border-radius: 30%; 
+    box-shadow: 10px 10px 8px 10px #747474 ;
+}
+.project-image img:hover{
+    transform: scale(1.02);
+}
+.contact{
+    display: flex;
+    justify-content: center;
+}
+.contactMe{
+    font-size: 3rem;
+    font-weight: bolder;
+    padding-top: 50px;
+}
+.contact-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.formname{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.workspace-image{
+    display: flex;
+    justify-content: space-evenly;
+}
+.workspace-image img{
+    height: 230px;
+    margin-left: 100px;
+    margin-top: 60px;
+
+}
+.image-centre img{
+    border-radius: 30%;
+}
+.form-space{
+    height: 300px;
+    width: 500px;
+    background-color: rgb(61, 102, 112);
+    border-radius: 30%;
+    padding-top: 20px;
+    margin-top: 15px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+
+}
+
+.footer-content{
+    background-color: black;
+    height: 100px;
+    padding: 0px 30% 0px 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    padding: 0px;
+}
+.copyright{
+    color: white;
+    margin-right: 50px;
+}
+.profile-icon-container2{
+    display: flex;
+}
+#fname{
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+#lname{
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+#email{
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+#submit{
+    padding: 10px 15px;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+#submit:hover{
+    background-color: rgba(240, 240, 240, 0.486);
+}
+.first{
+    margin-bottom: 30px;
+}
+.last{
+    margin-bottom: 30px;
+}
+.email{
+    margin-bottom: 30px;
+}
