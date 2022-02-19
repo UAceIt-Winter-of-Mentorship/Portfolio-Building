@@ -6,11 +6,10 @@
     font-family: sans-serif;
 }
 header{
-    background-color: rgb(255 255 255 / 90%);
+    background-color: rgba(61, 184, 206, 0.527);
     height: 8vh;
     padding: 10px 50px 10px 50px;
     box-sizing: border-box;
-    border-bottom: 2px solid #e4e3e4;
     position: sticky;
     top: 0;
 }
